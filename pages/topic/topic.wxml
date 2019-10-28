@@ -1,0 +1,41 @@
+<view class="container">
+   
+    <scroll-view class="topic-list" scroll-y="true" scroll-top="{{scrollTop}}">
+            <view class="banner">
+                <swiper
+                    indicator-dots="{{true}}"
+                    autoplay="{{true}}"
+                    interval="3000"
+                    duration="1500"
+                    indicator-color="rgba(255,255,255,0.3)"
+                    indicator-active-color="white"
+                    circular="{{true}}"
+                >
+                    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+                            <swiper-item>
+                                <image src="{{item}}" class="slide-image"/>
+                            </swiper-item>
+                    </block>
+                </swiper>
+                
+            </view>
+            <navigator url="../category/category?id=1036000" class='categoryBtn'>
+                <image src='./../../static/images/banner.png'>
+                
+                </image>
+            </navigator>
+        <!-- <navigator class="item" wx:for="{{topicList}}" wx:key="{{item.id}}" url="../topicDetail/topicDetail?id={{item.id}}"> -->
+         <navigator class="item" wx:for="{{topicList}}" wx:key="{{item.id}}" url="../goods/goods?id={{item.id}}">
+            <image class="img" src="{{item.scene_pic_url}}"></image>
+            <!-- <view class="info">
+                <text class="title">{{item.title}}</text>
+                <text class="desc">{{item.subtitle}}</text>
+                <text class="price">{{item.price_info}}元起</text>
+            </view> -->
+            <view class="btn">
+                了解更多
+            </view>
+        </navigator>
+        
+    </scroll-view>
+</view>

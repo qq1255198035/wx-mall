@@ -1,0 +1,47 @@
+/**app.wxss**/
+.container {
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  font-family: PingFangSC-Light,helvetica,'Heiti SC';
+} 
+
+view,image,text,navigator{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+
+}
+
+view,text{
+  font-family: PingFangSC-Light,helvetica,'Heiti SC';
+  font-size: 29rpx;
+  color: #333;
+}
+
+button::after {
+  display: none;
+}
+
+.display-none {
+  display: none !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+}
+.mr-top{
+    margin-top: 140rpx;
+}
+.nav-back-w{
+    width: 60rpx;
+    height: 60rpx;
+    position: fixed;
+    left: 30rpx;
+    top: 70rpx;
+    background: url("http://192.168.1.110:8080/platform/statics/img/go-back.png") center / 60rpx 60rpx no-repeat;
+    z-index: 2000;
+} 

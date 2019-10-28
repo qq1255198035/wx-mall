@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/topic/topic",
+    "pages/catalog/catalog",
+    "pages/category/category",
+    "pages/newGoods/newGoods",
+    "pages/hotGoods/hotGoods",
+    "pages/ucenter/address/address",
+    "pages/ucenter/addressAdd/addressAdd",
+    "pages/ucenter/footprint/footprint",
+    "pages/ucenter/order/order",
+    "pages/ucenter/orderDetail/orderDetail",
+    "pages/ucenter/feedback/feedback",
+    "pages/ucenter/coupon/coupon",
+    "pages/ucenter/collect/collect",
+    "pages/auth/login/login",
+    "pages/auth/register/register",
+    "pages/auth/reset/reset",
+    "pages/pay/pay",
+    "pages/payResult/payResult",
+    "pages/ucenter/index/index",
+    "pages/comment/comment",
+    "pages/commentPost/commentPost",
+    "pages/topicComment/topicComment",
+    "pages/brand/brand",
+    "pages/brandDetail/brandDetail",
+    "pages/cart/cart",
+    "pages/shopping/checkout/checkout",
+    "pages/shopping/address/address",
+    "pages/shopping/addressAdd/addressAdd",
+    "pages/goods/goods",
+    "pages/topicDetail/topicDetail",
+    "pages/auth/mobile/mobile",
+    "pages/shopping/selCoupon/selCoupon",
+    "pages/ucenter/help/help",
+    "pages/ucenter/helpInfo/helpInfo",
+    "pages/auth/btnAuth/btnAuth"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "奥塔苏酒庄",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#000",
+    "color": "#666",
+    "list": [
+     
+      {
+        "pagePath": "pages/topic/topic",
+        "iconPath": "static/images/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/ic_menu_choice_pressed.png",
+        "text": "首页"
+      },
+     
+    
+      {
+        "pagePath": "pages/ucenter/index/index",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/ic_menu_me_pressed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

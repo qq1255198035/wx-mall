@@ -1,0 +1,4 @@
+<!--component/top-fixed.wxml-->
+<view class="top-fixed">
+      <navigator open-type="navigateBack" hover-class="none"></navigator>
+</view>

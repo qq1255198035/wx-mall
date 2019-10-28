@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "top-fixed": "./../../component/top-fixed/top-fixed"
+    }
+}

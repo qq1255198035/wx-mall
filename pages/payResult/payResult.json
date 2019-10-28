@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "付款结果",
+    "navigationBarBackgroundColor": "#fafafa",
+    "usingComponents": {
+        "top-fixed": "./../../component/top-fixed/top-fixed"
+    }
+}
